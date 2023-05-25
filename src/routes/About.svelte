@@ -1,5 +1,5 @@
 <script>
-    // import about from 'public/images/about.png';
+	// import about from 'public/images/about.png';
 </script>
 
 <section class="about section-padding" id="section_2">
@@ -37,3 +37,44 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	/* .profile-thumb {
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius-medium);
+		position: relative;
+		overflow: hidden;
+	}
+
+	.profile-title {
+		border-bottom: 1px solid var(--border-color);
+		padding: 15px 30px;
+	}
+
+	.profile-small-title {
+		border-right: 1px solid var(--border-color);
+		color: var(--secondary-color);
+		font-weight: var(--font-weight-bold);
+		min-width: 140px;
+		margin-right: 10px;
+		padding: 13px 30px;
+		display: inline-block;
+	}
+
+	.profile-body p {
+		margin-bottom: 0;
+	}
+
+	.profile-body p:nth-of-type(even) {
+		background: var(--white-color);
+	}
+
+	.about-image {
+		border-radius: var(--border-radius-medium);
+	} */
+
+	.about-thumb {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+</style>
