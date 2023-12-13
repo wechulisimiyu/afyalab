@@ -126,8 +126,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 b,
@@ -570,6 +570,30 @@ strong {
   padding-right: 20px;
   padding-left: 20px;
 }
+/*---------------------------------------
+  TEAM              
+-----------------------------------------*/
+.box .team-img{
+  width: 18rem;
+  height: 22rem;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.box{
+  transform: scale(1);
+  overflow: hidden;
+}
+.box .team-img:hover{
+  transform: scale(1.2);
+}
+.team-box{
+  width: 18rem;
+  margin: 2rem auto;
+   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  border-radius: var(--border-radius-medium);
+}
+
+
 
 
 /*---------------------------------------
